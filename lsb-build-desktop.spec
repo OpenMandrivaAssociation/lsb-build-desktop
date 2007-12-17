@@ -11,7 +11,6 @@ License: 	LGPL
 Group: 		Development/C
 Source: ftp://ftp.freestandards.org/pub/lsb/lsbdev/released-3.1.0/source/%{name}-%{version}.tar.bz2
 URL:		http://www.linuxbase.org/build
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Requires: 	lsb-build-base
 BuildRequires:	lsb-build-base lsb-build-cc
 
