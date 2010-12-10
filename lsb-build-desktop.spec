@@ -6,7 +6,7 @@
 Summary: 	LSB Build environment desktop package
 Name: 		lsb-build-desktop
 Version: 	3.1.1
-Release: 	%mkrel 6
+Release: 	%mkrel 7
 License: 	LGPL
 Group: 		Development/C
 Source: ftp://ftp.freestandards.org/pub/lsb/lsbdev/released-3.1.0/source/%{name}-%{version}.tar.bz2
