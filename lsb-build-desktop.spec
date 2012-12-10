@@ -6,7 +6,7 @@
 Summary: 	LSB Build environment desktop package
 Name: 		lsb-build-desktop
 Version: 	3.1.1
-Release: 	%mkrel 7
+Release: 	%mkrel 6
 License: 	LGPL
 Group: 		Development/C
 Source: ftp://ftp.freestandards.org/pub/lsb/lsbdev/released-3.1.0/source/%{name}-%{version}.tar.bz2
@@ -66,4 +66,33 @@ rm -rf $RPM_BUILD_ROOT
 %doc README Licence
 %{_libdir}/%{lsbbuild}/*
 %{_includedir}/%{lsbbuild}/*
+
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.1.1-6mdv2010.0
++ Revision: 429875
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.1.1-5mdv2009.0
++ Revision: 251473
+- rebuild
+
+* Thu Jan 03 2008 Olivier Blin <oblin@mandriva.com> 3.1.1-3mdv2008.1
++ Revision: 140933
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Sep 18 2007 Guillaume Rousse <guillomovitch@mandriva.org> 3.1.1-3mdv2008.0
++ Revision: 89912
+- rebuild
+
+
+* Sun Jun 18 2006 Anssi Hannula <anssi@mandriva.org> 3.1.1-2mdv2007.0
+- add libraries and pkgconfigs to _provides_exceptions
+
+* Thu Jun 15 2006 Stew Benedict <sbenedict@mandriva.com> 3.1.1-1mdk2007.0
+- 1st Mandriva packaging
 
